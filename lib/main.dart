@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_generative_ai/google_generative_ai.dart';
 
 // 秘钥
 const String apiKey = "123";
