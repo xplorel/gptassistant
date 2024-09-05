@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
               label: Text("FleatherEditorScreen")),
           ElevatedButton.icon(
               onPressed: () {
-                Get.toNamed(RoutersName.superListPage);
+                Get.toNamed(RoutersName.quillHtmlEditorPage);
               },
               label: Text("super列表")),
           ElevatedButton.icon(

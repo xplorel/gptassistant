@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:markdown_widget/markdown_widget.dart';
 
 class QuillHtmlEditorScreen extends StatefulWidget {
   const QuillHtmlEditorScreen({super.key});
@@ -8,11 +9,23 @@ class QuillHtmlEditorScreen extends StatefulWidget {
 }
 
 class _QuillHtmlEditorScreenState extends State<QuillHtmlEditorScreen> {
+  late String md;
+
+  @override
+  void initState() {
+    md = "# 你好";
+
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("quillHtmleditor"),
+        title: const Text("Markdown_widget"),
+      ),
+      body: MarkdownWidget(
+        data: md,
       ),
     );
   }
