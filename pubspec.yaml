@@ -48,35 +48,30 @@ dependencies:
   #html_editor_enhanced: ^1.8.0
   #super_editor: ^0.2.7
   # google_generative_ai: ^0.2.2
-  markdown: ^7.2.2
+  # markdown: ^7.2.2
+  markdown_widget: ^2.3.2+6
 dependency_overrides:
-
-
-
-  markdown: ^7.2.2
-
-
   
-  super_editor:
-    git:
-      url: https://github.com/superlistapp/super_editor
-      path: super_editor
-      ref: stable # or "main"
-  super_editor_markdown:
-    git:
-      url: https://github.com/superlistapp/super_editor
-      path: super_editor_markdown
-      ref: stable
-  super_text_layout:
-    git:
-      url: https://github.com/superlistapp/super_editor
-      path: super_text_layout
-      ref: stable
-  attributed_text:
-    git:
-      url: https://github.com/superlistapp/super_editor
-      path: attributed_text
-      ref: stable
+  # super_editor:
+  #   git:
+  #     url: https://github.com/superlistapp/super_editor
+  #     path: super_editor
+  #     ref: stable # or "main"
+  # super_editor_markdown:
+  #   git:
+  #     url: https://github.com/superlistapp/super_editor
+  #     path: super_editor_markdown
+  #     ref: stable
+  # super_text_layout:
+  #   git:
+  #     url: https://github.com/superlistapp/super_editor
+  #     path: super_text_layout
+  #     ref: stable
+  # attributed_text:
+  #   git:
+  #     url: https://github.com/superlistapp/super_editor
+  #     path: attributed_text
+  #     ref: stable
 dev_dependencies:
   flutter_test:
     sdk: flutter
